@@ -1,0 +1,6 @@
+horiztal distance
+(-) | (+)
+    |
+5 - 4 - 3       (+)
+6 - 1 - 2 ------ vertical distance
+7 - 8 - 9 - 10  (-)
