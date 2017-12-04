@@ -17,7 +17,8 @@ $array = str_split($input); // split each string part to an array
 
 // TODO: use submit button & append this function
 $sum = calc_sum($array);
-echo "sum result: " . $sum;
+echo "sum result: " . $sum . "<br/>";
+echo "<hr>" . "part two:<br/>";
 
 /**
  * @param $array array containing all numbers
@@ -42,8 +43,20 @@ function calc_sum($array) {
     return $sum;
 }
 
-?>
+// part two
 
+$array_length = count($array);
+$length_half = $array_length / 2;
+$offset_sum = 0;
+
+for ($i = 0; $i < $array_length; $i++) {
+    if ($array[$i] === $array[($i + $length_half) % $array_length]) {
+        $offset_sum += $array[$i];
+    }
+}
+echo "offset sum: " . $offset_sum;
+
+?>
 
 </body>
 </html>
