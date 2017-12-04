@@ -9,11 +9,11 @@
 $input = 361527;
 
     /**
- * Calculate the manhatten distance
+ * Calculate the manhattan distance
  * @param $input int the value to be found
  * @return float|int the distance
  */
-function calc_mdistance($input) {
+function calc_manhattan_distance($input) {
     // start value
     $value = 1;
     $step = 1;
@@ -56,5 +56,5 @@ function calc_mdistance($input) {
     }
 }
 
-$distance = calc_mdistance($input);
+$distance = calc_manhattan_distance($input);
 echo "Input: " . $input . " manhattan distance: " . $distance;
