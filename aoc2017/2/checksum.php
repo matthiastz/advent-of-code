@@ -12,7 +12,7 @@ $even_sum = 0;
 $matrix = fopen("input.txt", "r") or die("Unable to open file!");
 
 // read each text line until end-of-file
-while(!feof($matrix)) {
+while (!feof($matrix)) {
     $line = fgets($matrix);
     $line = trim($line); // trim leading and tailing whitespace
 

@@ -1,6 +1,14 @@
-horiztal distance
+horizontal distance
 (-) | (+)
     |
 5 - 4 - 3       (+)
 6 - 1 - 2 ------ vertical distance
 7 - 8 - 9 - 10  (-)
+
+part two
+
+11  -   23  -   25
+747 -   x   -   0
+0   -   0   -   0
+
+x = 747 + 11 + 23 + 25 + 0 + 0 + 0 + 0 = 806
